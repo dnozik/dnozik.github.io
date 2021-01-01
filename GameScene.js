@@ -25,7 +25,7 @@ class GameScene extends Phaser.Scene {
         // });
 
 
-        this.load.svg('haberBoschBackground', 'assets/HaberBoschArtboard 5.svg', { width: 1280, height: 2000 });
+        this.load.svg('haberBoschBackground', 'assets/HaberBoschArtboard 6.svg', { width: 1280, height: 2000 });
         this.load.image('greenAnglePipe10', 'assets/GreenAnglePipeAsset 10.png', { width: 10, height: 10 });
         this.load.image('greenStraightPipe', 'assets/GreenStraightPipeAsset 17@288x.png', { width: 10, height: 10 });
         this.load.image('greenArrow', 'assets/GreenArrowAsset 18@288x.png', { width: 10, height: 10 });
