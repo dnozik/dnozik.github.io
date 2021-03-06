@@ -7,15 +7,13 @@ class GameScene extends Phaser.Scene {
 
         this.load.scenePlugin({
             key: 'rexuiplugin',
-            url: 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js',
+            url: 'assets/js/rexuiplugin.min.js',
             sceneKey: 'rexUI'
         });
 
-        let url;
-        url = 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexroundrectangleplugin.min.js';
-        this.load.plugin('rexroundrectangleplugin', url, true);
+        this.load.plugin('rexroundrectangleplugin', 'assets/js/rexroundrectangleplugin.min.js', true);
 
-        this.load.plugin('rexdragplugin', 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexdragplugin.min.js', true);
+        this.load.plugin('rexdragplugin', 'assets/js/rexdragplugin.min.js', true);
 
         // Buttons
         // this.load.scenePlugin({
